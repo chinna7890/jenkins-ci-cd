@@ -40,7 +40,7 @@ pipeline {
 
         stage('Docker Deploy') {
             steps {
-                sh 'docker run -d -p 5050:8080 --name azure amazon'
+                sh 'docker run -d -p 6060:8080 --name azure amazon'
             }
         }
     }
